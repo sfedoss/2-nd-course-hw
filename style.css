@@ -19,7 +19,7 @@ body {
     height: 1024px;
 }
 
-.top_content {
+.top__content {
     padding-top: 217px;
     display: flex;
     flex-direction: column;
@@ -28,7 +28,7 @@ body {
 
 }
 
-.title {
+.top__title {
     color: #FFF;
     font-size: 64px;
     font-style: normal;
@@ -50,7 +50,7 @@ body {
     line-height: 32px;
 }
 
-.top_text {
+.top__text {
     color: #FFF;
     font-size: 18px;
     font-style: normal;
@@ -60,7 +60,7 @@ body {
     margin-top: 32px;
 }
 
-.top_button {
+.top__button {
     border: none;
     width: 234.063px;
     margin-top: 44px;
