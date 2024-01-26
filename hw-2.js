@@ -14,12 +14,12 @@ alert(creatorJS);
 
 // Задание 4
 let firstN = 10;
-let twoN = 2;
+let secondN = 2;
 
-alert(firstN + twoN);
-alert(firstN - twoN);
-alert(firstN * twoN);
-alert(firstN / twoN);
+alert(firstN + secondN);
+alert(firstN - secondN);
+alert(firstN * secondN);
+alert(firstN / secondN);
 
 // Задание 5
 let result = twoNumber ** 5;
