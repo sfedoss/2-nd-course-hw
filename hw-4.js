@@ -18,8 +18,8 @@ while (c < 5) {
 let a = 7
 
 while (a <= 22) {
-    a++
     concole.log (a);
+    a++
 }
 
 // Задание 4 
@@ -38,9 +38,11 @@ for (let element in obj) {
 // Задание 5 
 
 let num = 0;
+let i = 1000;
 
-for (let i = 1000; i >= 50; i /= 2) {
-    num++;
+while (i >= 50) {
+    i / 2;
+    num++
     console.log('Получилось число: ' + i + '.');
 }
 
