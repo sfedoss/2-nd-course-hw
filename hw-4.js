@@ -41,7 +41,7 @@ let num = 0;
 let i = 1000;
 
 while (i >= 50) {
-    i / 2;
+    i /= 2;
     num++
     console.log('Получилось число: ' + i + '.');
 }
