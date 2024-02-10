@@ -18,8 +18,8 @@ while (c < 5) {
 let a = 7
 
 while (a <= 22) {
-    concole.log (a);
-    a++
+    console.log (a);
+    a++;
 }
 
 // Задание 4 
@@ -45,7 +45,6 @@ while (i >= 50) {
     num++
     console.log('Получилось число: ' + i + '.');
 }
-
 console.log('Всего итераций: ' + num);
 
 
