@@ -38,6 +38,23 @@
             width: 300px;
             height: 250px;
         }
+
+        &__heading {
+            font-size: 28px;
+        }
+
+        &__button {
+            font-size: 16px;
+        }
+
+        &__picture {
+            width: 300px;
+            order: 1;
+        }
+
+        &-one {
+            height: 653px;
+        }
     }
 }
 
@@ -90,6 +107,32 @@
 
         &__link {
             width: 343px;
+        }
+
+        &__container {
+            align-items: center;
+        }
+
+        &__heading {
+            font-size: 32px;
+            text-align: center;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 22px;
+            text-align: center;
+            width: auto;
+        }
+
+        &__picture {
+            width: 344px;
+            order: 1;
+        }
+
+        &-one {
+            height: 653px;
+            justify-content: center;
         }
     }
 }

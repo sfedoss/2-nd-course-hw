@@ -119,6 +119,56 @@ body {
         bottom: 32px;
         text-decoration: none;
     }
+
+    &-one {
+        height: 800px;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__container {
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+    }
+
+    &__heading {
+        color: #FFF;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    &__text {
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 32px;
+        width: 584px;
+    }
+
+    &__button {
+        width: 235px;
+        height: 48px;
+        border-radius: 30px;
+        background: #9C0332;
+        outline: none;
+        border: none;
+        color: #FFF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        transition: background .3s;
+        cursor: pointer;
+
+        &:hover {
+            background: #EB443F;
+        }
+    }
 }
 
 
