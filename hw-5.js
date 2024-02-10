@@ -66,7 +66,7 @@ function multNumbers(numberOne, numberTwo) {
     }
 }
 
-console.log(multNumbers(10, 5));
+console.log(multNumbers(15, 5));
 
 
 // Задание 6
