@@ -80,7 +80,8 @@ const months = ["Января", "Февраля", "Марта", "Апреля", 
 
 function formatedDate(currentDate) {
     let fullDate = currentDate.getDate() + ' ' + months[currentDate.getMonth()].toLowerCase() + ' ' + currentDate.getFullYear() + ' -  это ' + days[currentDate.getDay()].toLowerCase();
-    let fullTime = currentDate.getHours()+ ':' + currentDate.getMinutes() + ':' + currentDate.getSeconds();
+    // Добавляем ведущие нули для минут и секунд
+    let fullTime = currentDate.getHours().toString().padStart(2, '0')+ ':' + currentDate.getMinutes().toString().padStart(2, '0') + ':' + currentDate.getSeconds().toString().padStart(2, '0');
     let dateResult = `${fullDate}\n${fullTime}`;
     return dateResult;
 }
