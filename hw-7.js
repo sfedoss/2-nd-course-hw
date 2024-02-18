@@ -85,4 +85,5 @@ function formatedDate(currentDate) {
     return dateResult;
 }
 
+
 console.log(formatedDate(date));
