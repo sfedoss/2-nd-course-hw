@@ -64,6 +64,11 @@ body {
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        transition: background .3s;
+        cursor: pointer;
+        &:hover {
+            background: #EB443F;
+        }
     }
 
     &__bold {
