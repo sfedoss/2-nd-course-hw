@@ -7,7 +7,7 @@ const wordArr = ['Кошка', 'Кит', 'Комар', 'Носорог', 'Кор
 let strTwo = 'ко';
 
 function searchStart(array, str) {
-    return array.filter(el => el.toLowerCase().startsWith(str));
+    return array. filter(el => el.toLowerCase().startsWith(str.toLowerCase()));
 }
 
 console.log(searchStart(wordArr, strTwo));
@@ -22,12 +22,12 @@ console.log(Math.round(num));
 // Задание 4
 const numArr = [52, 53, 49, 77, 21, 32];
 
-console.log(Math.min(52, 53, 49, 77, 21, 32));
-console.log(Math.max(52, 53, 49, 77, 21, 32));
+console.log(Math.min(numArr));
+console.log(Math.max(numArr));
 
 // Задание 5
 function getRandomNumber() {
-    console.log(Math.round(Math.random() * 11));
+    console.log(Math.round(Math.random() * 10) + 1);
 }
 
 getRandomNumber();
@@ -64,6 +64,10 @@ let day = currentDate.getDate();
 
 if (month < 10) {
     month = '0' + month;
+}
+
+if (day < 10) {
+    day = '0' + day;
 }
 
 console.log(`Через 73 дня будет: ${day}.${month}.${year}`);
